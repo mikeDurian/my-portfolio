@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap');
+
+:root {
+    --primary-color: #58508d;
+    --primary-color-hover: #1f1b33;
+    --secondary-color: #54ca95;
+    --tertiary-color: #39325a; 
+    --accent-color1: #aaaaaa; 
+    --accent-color2: #f8f6f7;
+
+    --logo-font: "Ultra", serif;
+    --primary-font: "Archivo Black", serif;
+    --secondary-font: "Montserrat", serif;
+}
+/* Ensure the body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.progress-bar {
+    background-color: var(--primary-color) !important;
+}
+
+/* Apply Flexbox to body to make it a flex container */
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* Style all input and textarea placeholders */
+input::placeholder, textarea::placeholder {
+    color: #afafaf !important;                /* Set placeholder text color */
+    font-size: 20;            /* Set font size */
+    font-style: italic;         /* Set font style */
+    font-weight: normal;        /* Set font weight */
+    opacity: 1;                 /* Optional: Set opacity (default is 0.5) */
+}
+input {
+    height: 51px;
+    font-size: 30px;
+}
+
+/* Navbar */
+.navbar .responsive-toggle .bi {
+    display: none;
+    cursor: pointer;
+}
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 10 !important; /* Ensure whole navbar stays on top */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.logo {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50%;
+    font-family: var(--logo-font);
+}
+.nav-link {
+    color: var(--primary-color) !important;
+}
+.nav-link:hover {
+    color: var(--primary-color-hover) !important;
+}
+.side-menu {
+    position: fixed;  
+    padding-top: 120px !important; 
+    top: 0;            
+    right: -40%;    
+    width: 40%;    
+    height: auto;     
+    background-color: #f8f9fa; 
+    padding-top: 90px;
+    padding-left: 15px;
+    z-index: 2;      
+    transition: right 0.3s ease;
+}
+
+
+.side-menu.open {
+    right: 0;         
+}
+#toggle {
+    cursor: pointer;
+}
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+@media (max-width: 991px) {
+    .navbar .links {
+        display: none;
+    }
+    .navbar .responsive-toggle .bi {
+        display: block !important;
+    }
+}
+
+.container-fluid {
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+/* Hero section */
+body {
+    overflow-x: hidden !important;
+}
+.hero-img {
+    width: clamp(250px, 50vw, 400px);
+    border-radius: 100% !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 10px solid #fff;
+}
+.hero-text-container {
+    width: 50%;
+}
+@media (max-width: 1080px) {
+    .hero-text-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-img-container {
+        justify-content: center !important;
+    }
+}
+@media (max-width: 768px) {
+    .hero-text-container {
+        padding: 20px;
+    }
+    .hero-text-head {
+        text-align: center !important;
+    }
+    .hero-contact {
+        text-align: center !important;
+    }
+}
+
+/* About */
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+/* Services */
+.card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 350px !important;
+}
+@media (max-width: 1280px) {
+    .card {
+
+        height: 400px !important;
+    } 
+}
+@media (max-width: 991px) {
+    .fit-col {
+        display: block !important;
+    }
+}
+@media (max-width: 576px) {
+    .card {
+        margin: 15px 15px !important;
+    }
+}
+
+/* Skills */
+.skills-card {
+    height: 100% !important;
+}
+
+/* contact */
+
+
+/* The footer stays at the bottom of the page */
+.footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    background-color: #fcfcfc !important; /* Optional: for a better visual appearance */
+    border-top: 2px solid #eeeeee;
+    z-index: 3;
+}
+.footer .foot-links a {
+    padding: 0 10px;
+    transition: 0.3s ease-out;
+}
+
+.footer .foot-links a:hover {
+    color: var(--primary-color-hover) !important;
+}
+
+
+@media (max-width: 768px) {
+    .footer .foot-links {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .footer .copyright {
+        text-align: center !important;
+    }
+}
+
+/* Reusable styles */
+.rotate {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(180deg); /* You can adjust the degree if you want a different rotation */
+}
+.rotate-back {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(-180deg); /* You can adjust the degree if you want a different rotation */ 
+}
+.font-1 {
+    font-family: var(--secondary-font) !important;
+}
+.font-2 {
+    font-family: var(--primary-font) !important;
+}
+.font-color1 {
+    color: var(--accent-color1) !important;
+}
+.font-color2 {
+    color: var(--primary-color) !important;
+}
+.font-color3 {
+    color: var(--tertiary-color) !important;
+}
+.bg-color1 {
+    background-color: var(--accent-color2) !important;
+}
+.bg-color2 {
+    background-color: var(--primary-color) !important;
+}
+.heading {
+    position: relative;
+    display: inline-block;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;  /* Adjust the distance from the text */
+    left: 0;
+    width: 100%;
+    height: 3px;  /* Adjust the thickness of the underline */
+    background: linear-gradient(to right, #58508d 35%, #aaaaaa 35%); /* Change colors here */
+}
+.heading1 {
+    position: relative;
+    display: inline-block;
+}
+
+.heading1::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;  /* Adjust the distance from the text */
+    left: 0;
+    width: 100%;
+    height: 3px;  /* Adjust the thickness of the underline */
+    background: var(--primary-color); /* Change colors here */
+}
+.justify-text {
+    text-align: justify;
+}
+.btn-custom {
+    color: #000;
+    border: 2px solid var(--primary-color);
+    border-radius: initial;
+    border-radius: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: 0.3s ease-out;
+}
+.btn-custom1 {
+    color: #000;
+    border: 2px solid #ddd;
+    border-radius: initial;
+    border-radius: 100px;
+    transition: 0.3s ease-out;
+}
+.btn-custom:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-custom1:hover {
+    background-color: #ddd;
+}
+
+.typewriter h1 {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    animation: blink 0.75s step-end infinite 2s;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/* Initial state - elements are invisible */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px); /* Slightly shift the element downward */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* State when scrolled into view - elements become visible */
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0); /* Reset the position */
+}
+
+
+  
+
+
+
