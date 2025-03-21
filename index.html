@@ -16,7 +16,7 @@
 
     <!-- Bootstrap 5.3.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/works/skill-1/assets/css/skill-1.css">
     
     <!-- Main css -->
     <link rel="stylesheet" href="./src/css/main.css">
@@ -32,6 +32,14 @@
         .g-maps {
             width: 100%;
         }
+        .collection-container {
+            height: 300px !important;
+        }
+        iframe {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+        }
 
     </style>
 </head>
@@ -41,8 +49,8 @@
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex justify-content-center align-items-center" href="./index.html">
-                    <h1 class="logo">I</h1>
-                    <h1 class="nav-heading mx-2">Ian Durian</h1>
+                    <h1 class="logo">M</h1>
+                    <h1 class="nav-heading mx-2">Mike Durian</h1>
                 </a>
     
                 <div id="toggle" class="responsive-toggle">
@@ -54,7 +62,7 @@
                         <li class="nav-item mx-2"><a class="nav-link fs-4" href="#home">Home</a></li>
                         <li class="nav-item mx-2"><a class="nav-link fs-4" href="#about">About Me</a></li>
                         <li class="nav-item mx-2"><a class="nav-link fs-4" href="#services">Services</a></li>
-                        <li class="nav-item mx-2"><a class="nav-link fs-4" href="#skills">Skills</a></li>
+                        <li class="nav-item mx-2"><a class="nav-link fs-4" href="#works">My Works</a></li>
                         <li class="nav-item mx-2"><a class="nav-link fs-4" href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -67,7 +75,7 @@
                 <li class="nav-item my-5"><a class="nav-link fs-4" href="#home">Home</a></li>
                 <li class="nav-item my-5"><a class="nav-link fs-4" href="#about">About Me</a></li>
                 <li class="nav-item my-5"><a class="nav-link fs-4" href="#services">Services</a></li>
-                <li class="nav-item my-5"><a class="nav-link fs-4" href="#skills">Skills</a></li>
+                <li class="nav-item my-5"><a class="nav-link fs-4" href="#works">My Works</a></li>
                 <li class="nav-item my-5"><a class="nav-link fs-4" href="#">Contact</a></li>
             </ul>
         </div>
@@ -80,7 +88,7 @@
         <div id="home" class="hero-section row p-5">
             <!-- hero img -->
             <div class="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-end align-items-center p-5 hero-img-container" data-aos="fade-up" data-aos-delay="100">
-                <img src="https://placehold.co/600x600/png" alt="" class="img-fluid hero-img col-md-6">
+                <img src="./src/img/pic.jpg" alt="" class="img-fluid hero-img col-md-6">
             </div>
 
             <!-- hero text -->
@@ -93,15 +101,16 @@
                         </div>
 
                     </div>
-                    <p class="justify-text">Toon-boom Harmony /2D/Paperless / Traditional Feature/ Character Rough Animator (remote)</p>
+                    <p class="">Toon-boom Harmony /2D/Paperless / Traditional Feature/ Character Rough Animator (remote)</p>
 
                     <div class="mx-5 hero-contact">
-                        <a id="downloadLink" href="./src/Durian Ian Gabriel_CV.pdf" class="btn btn-custom mb-3">Download CV</a>
+                        <a id="downloadLink" href="./src/img/Michael_Durian_CV_UPDATED.pdf" class="btn btn-custom mb-3">Download CV</a>
                         <a href="#contact" class="btn btn-custom1 mb-3">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <br><br><br><br><br>
         <div id="about"></div>
@@ -111,21 +120,21 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="mt-5">Education</h3>
-                    <section class="">
+                    <section class="mx-3">
                         <ul class="timeline">
                             <li class="timeline-item mb-5">
-                            <h5 class="fw-bold">General Mariano Alvarez Technical Highschool</h5>
-                            <p class="text-muted mb-2 fw-bold">July 2017 - March 2019</p>
+                            <h5 class="fw-bold">Antonio A. Maceda Integrated School – Sta. Mesa, Manila Secondary Education</h5>
+                            <p class="text-muted mb-2 fw-bold">1989 – 1993</p>
                             <p class="text-muted">
-                                My Highschool Alma mater, I have studied 6 years here from Grade 7 Junior High to Grade 12 Senior High and I graduated among the batch of 2019.
+                                I have studied 4 years here from 1st year to 1th year level and I graduated among the batch of 1993.
                             </p>
                             </li>
                         
                             <li class="timeline-item mb-5">
-                            <h5 class="fw-bold">Cavite State University Indang Campus</h5>
-                            <p class="text-muted mb-2 fw-bold">August 2019 - April 2024</p>
+                            <h5 class="fw-bold">Polytechnic University of the Philippines</h5>
+                            <p class="text-muted mb-2 fw-bold">1993</p>
                             <p class="text-muted">
-                                CVSU Main in short is where I spent 4 1/2 years to earn my Bachelor's degree in computer science, I graduated among the batch of 1st semester graduatees in the year 2024.
+                                B.A. in Architecture, non-degree holder
                             </p>
                             </li>
                         
@@ -135,21 +144,21 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300">
                     <h3 class="mt-5">Work Experience</h3>
-                    <section class="">
+                    <section class="mx-3">
                         <ul class="timeline">
                             <li class="timeline-item mb-5">
-                            <h5 class="fw-bold">Highly Succeed Inc.</h5>
-                            <p class="text-muted mb-2 fw-bold">August 2022 - October 2022</p>
+                            <h5 class="fw-bold">Riot Inc.. Post Production</h5>
+                            <p class="text-muted mb-2 fw-bold">Nov 2021 – Feb 2023</p>
                             <p class="text-muted">
-                                The company named Highly Succeed Inc. is responsible for giving me the opportunity to complete my 140 hour On The Job Training. I worked as an Intern where I helped managed the databases of the company.
+                                2D Animator Paperless / Hybrid / Basic Cut Out
                             </p>
                             </li>
                         
                             <li class="timeline-item mb-5">
-                            <h5 class="fw-bold">Kou Fu Color Printing Corporation</h5>
+                            <h5 class="fw-bold">Feb 2023 – Nov 2024	</h5>
                             <p class="text-muted mb-2 fw-bold">July 2024 - Present</p>
                             <p class="text-muted">
-                                I am currently working as a Full Stack Developer in Kou Fu Color Printing Corporation. Aside from web developing, I also have the responsibillity of IT technical and network supporting. 
+                                2D Animator Paperless / Hybrid / Basic Cut Out
                             </p>
                             </li>
                         
@@ -173,17 +182,15 @@
                     <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="100">
                         <div class="card">
                             <div class="card-header text-center bg-color2">
-                              <h5 class="card-title text-white">Web Designing</h5>
+                              <h5 class="card-title text-white">2D Animation</h5>
                             </div>
                             <div class="card-body">
                                 <div class=" text-center">
-                                    <span class="material-symbols-outlined fs-1 bg-color1 rounded-circle p-3">
-                                        design_services
-                                    </span>
+                                    <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#ffffff;} .st1{fill:#121212;} .st2{fill:#ffffff;} .st3{fill:#330D00;} .st4{fill:none;stroke:#330D00;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <g id="_x34_0-Id_Card"></g> <g id="_x33_9-Formula"></g> <g id="_x33_8-Elbow"></g> <g id="_x33_7-Diploma"></g> <g id="_x33_6-Laptop"></g> <g id="_x33_5-Brush"> <g> <g> <path class="st2" d="M50.1,1.4c1.2,0.7,1.4,2.5,0.5,4.1L28.8,43.3l-0.2,0.3c-1.3,2.3-3.8,3.3-5.5,2.3c-1.7-1-1.9-3.6-0.6-5.8 l0.2-0.4L46.2,2.9C47.2,1.3,48.9,0.7,50.1,1.4z"></path> </g> <g> <path class="st0" d="M28.6,43.6l0.2-0.3c-0.1,1.7-0.6,3.6-1.7,5.5c-3.4,5.5-14.2,14.1-14.2,14.1s2.5-13.6,5.9-19.1 c1.2-1.9,2.7-3.2,4.1-4.1l-0.2,0.4c-1.3,2.2-1.1,4.8,0.6,5.8C24.8,46.9,27.3,45.9,28.6,43.6z"></path> </g> <g> <path class="st3" d="M50.7,0.5L50.7,0.5c-1.7-1-4.1-0.2-5.4,1.8L22,38.9c-1.7,1.1-3.1,2.5-4.2,4.3c-3.4,5.6-5.9,18.9-6,19.5 c-0.1,0.5,0.1,0.9,0.5,1.1c0.2,0.1,0.4,0.2,0.6,0.2c0.2,0,0.5-0.1,0.7-0.2C14,63.4,24.6,55,28,49.4c1.1-1.8,1.7-3.7,1.9-5.7 L51.5,6.1C52.8,4,52.4,1.5,50.7,0.5z M26.1,48.2c-2.3,3.7-8.2,9-11.6,11.8c0.9-4.3,2.9-12,5.1-15.7c0.3-0.5,0.6-0.9,1-1.3 c0,0.1,0,0.2,0,0.3c0,0.2,0,0.5,0.1,0.7c0,0.1,0.1,0.3,0.1,0.4c0.1,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.1,0.2,0.2,0.4 c0.1,0.2,0.2,0.4,0.4,0.6c0.1,0.1,0.1,0.2,0.2,0.3c0.2,0.2,0.5,0.5,0.8,0.7c0.3,0.2,0.6,0.3,0.9,0.4c0.1,0,0.2,0,0.3,0.1 c0.2,0.1,0.5,0.1,0.7,0.1c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.1,0c0.3,0,0.7,0,1-0.1c0.4-0.1,0.8-0.2,1.1-0.4 C26.7,47.3,26.4,47.8,26.1,48.2z M49.6,5L27.9,42.7L27.7,43c-0.6,1-1.5,1.8-2.5,2.1c-0.4,0.1-1,0.2-1.5-0.2 c-1.1-0.7-1.2-2.6-0.2-4.3L47.2,3.5c0.5-0.8,1.2-1.3,1.9-1.3c0.2,0,0.4,0,0.5,0.1C50.1,2.7,50.3,3.8,49.6,5z"></path> </g> </g> </g> <g id="_x33_4-Baseball"></g> <g id="_x33_3-Student"></g> <g id="_x33_2-Highlighter"></g> <g id="_x33_1-Ruler"></g> <g id="_x33_0-Caliper"></g> <g id="_x32_9-Ruler_Elbow"></g> <g id="_x32_8-Abacus"></g> <g id="_x32_7-Id_Card"></g> <g id="_x32_6-Eraser"></g> <g id="_x32_5-Pencil"></g> <g id="_x32_4-Ink"></g> <g id="_x32_3-Graduation_Cap"></g> <g id="_x32_2-_Sling_Bag"></g> <g id="_x32_1-Rugby_Ball"></g> <g id="_x32_0-Clock"></g> <g id="_x31_9-Certificate"></g> <g id="_x31_8-Idea"></g> <g id="_x31_7-Bookshelf"></g> <g id="_x31_6-Formula"></g> <g id="_x31_5-Bell"></g> <g id="_x31_4-Magnifying_Glass"></g> <g id="_x31_3-Calculator"></g> <g id="_x31_2-Eyeglasses"></g> <g id="_x31_1-Bus"></g> <g id="_x31_0-Trophy"></g> <g id="_x39_-Globe"></g> <g id="_x38_-Basket_Ball"></g> <g id="_x37_-Pen"></g> <g id="_x36_-Board"></g> <g id="_x35_-Bag"></g> <g id="_x34_-Exam"></g> <g id="_x33_-Book"></g> <g id="_x32_-Ruler"></g> <g id="_x31_-Building"></g> </g></svg>
                                 </div>
 
                                 <div class="p-3">
-                                    <p class="card-text justify-text">I have experience in creating unique, user-friendly, and visually appealing websites that are tailored to client needs. I focus on responsive design to ensure optimal performance across all devices and platforms, delivering an excellent user experience every time.</p>
+                                    <p class="card-text">With expertise in 2D animation, I craft visually stunning animations that capture attention and convey your message effortlessly. Every frame is meticulously designed to deliver a seamless and immersive experience, ensuring your story stands out with creativity and precision.</p>
                                 </div>
                                 
                             </div>
@@ -196,17 +203,15 @@
                     <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
                             <div class="card-header text-center bg-color2">
-                              <h5 class="card-title text-white">Web Development</h5>
+                              <h5 class="card-title text-white">Storyboard and Character Design</h5>
                             </div>
                             <div class="card-body">
                                 <div class=" text-center">
-                                    <span class="material-symbols-outlined fs-1 bg-color1 rounded-circle p-3">
-                                        terminal
-                                    </span>
+                                    <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 342.785 342.785" xml:space="preserve" width="64px" height="64px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Storyboard"> <path d="M336.785,37.178H6c-3.313,0-6,2.687-6,6v256.429c0,3.313,2.687,6,6,6h330.785c3.313,0,6-2.687,6-6V43.178 C342.785,39.865,340.099,37.178,336.785,37.178z M330.785,293.607H12V49.178h318.785V293.607z"></path> <path d="M121.256,65.244H54.625v50.148h66.631V65.244z M109.256,103.392H66.625V77.244h42.631V103.392z"></path> <rect x="60.625" y="122.392" width="54.631" height="12"></rect> <rect x="144.077" y="122.392" width="54.631" height="12"></rect> <rect x="227.529" y="122.392" width="54.631" height="12"></rect> <rect x="60.625" y="140.392" width="54.631" height="12"></rect> <rect x="144.077" y="140.392" width="54.631" height="12"></rect> <rect x="227.529" y="140.392" width="54.631" height="12"></rect> <path d="M204.708,65.244h-66.631v50.148h66.631V65.244z M192.708,103.392h-42.631V77.244h42.631V103.392z"></path> <path d="M288.16,65.244h-66.631v50.148h66.631V65.244z M276.16,103.392h-42.631V77.244h42.631V103.392z"></path> <path d="M121.256,161.383H54.625v50.149h66.631V161.383z M109.256,199.533H66.625v-26.149h42.631V199.533z"></path> <rect x="60.625" y="218.533" width="54.631" height="12"></rect> <rect x="144.077" y="218.533" width="54.631" height="12"></rect> <rect x="227.529" y="218.533" width="54.631" height="12"></rect> <rect x="60.625" y="236.533" width="54.631" height="12"></rect> <rect x="144.077" y="236.533" width="54.631" height="12"></rect> <rect x="227.529" y="236.533" width="54.631" height="12"></rect> <path d="M204.708,161.383h-66.631v50.149h66.631V161.383z M192.708,199.533h-42.631v-26.149h42.631V199.533z"></path> <path d="M288.16,161.383h-66.631v50.149h66.631V161.383z M276.16,199.533h-42.631v-26.149h42.631V199.533z"></path> <rect x="25.261" y="273.812" width="281.525" height="12"></rect> </g> </g></svg>
                                 </div>
 
                                 <div class="p-3">
-                                    <p class="card-text justify-text">I offer web development services that cover both the frontend and backend of your projects. Whether you're looking to create a simple website or a more complex web application, I work with you to build something that meets your needs and helps you achieve your goals.</p>
+                                    <p class="card-text">I specialize in creating detailed storyboards and character designs that bring your ideas to life. From dynamic character poses to expressive designs, I ensure every detail aligns with your vision, crafting characters that are not only visually appealing but also full of personality and story.</p>
                                 </div>
                                 
                             </div>
@@ -221,17 +226,16 @@
                     <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500">
                         <div class="card">
                             <div class="card-header text-center bg-color2">
-                              <h5 class="card-title text-white">IT Supporting</h5>
+                              <h5 class="card-title text-white">Basic cutout Animation</h5>
                             </div>
                             <div class="card-body">
                                 <div class=" text-center">
-                                    <span class="material-symbols-outlined fs-1 bg-color1 rounded-circle p-3">
-                                        desktop_windows
-                                    </span>
+                                    <svg width="64px" height="64px" viewBox="0 0 22 22" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg6190" inkscape:version="0.92.1 r15371" sodipodi:docname="dark_dropframe.svg" inkscape:export-filename="../light_addblankframe.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1884" inkscape:window-height="1051" id="namedview4440" showgrid="true" inkscape:zoom="16" inkscape:cx="-10.601502" inkscape:cy="8.9823248" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="layer1" inkscape:snap-bbox="true"> <inkscape:grid type="xygrid" id="grid3250"></inkscape:grid> </sodipodi:namedview> <metadata id="metadata6196"> <rdf:rdf> <cc:work> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type> <dc:title></dc:title> <dc:date>2015</dc:date> <dc:creator> <cc:agent> <dc:title>Timothée Giet</dc:title> </cc:agent> </dc:creator> <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"></cc:license> </cc:work> <cc:license rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"> <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"></cc:permits> <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"></cc:requires> <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"></cc:requires> <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"></cc:requires> </cc:license> </rdf:rdf> </metadata> <g inkscape:groupmode="layer" id="layer1" inkscape:label="Layer 1"> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#373737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" d="M10 7.5v6l3-2.996z" id="path3308" inkscape:connector-curvature="0" inkscape:export-filename="/home/tyyppi/krita/animation/calligra/krita/pics/dark_playpause.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" sodipodi:nodetypes="cccc"></path> <path id="path6348-2" d="M2 4v13h2.375l1.375-2H5V6h6.938l1.374-2H2zm15.313 0-1.375 2H17v9H9.75l-1.375 2H20V4H17.312zM3 5h1v1H3V5zm14.969 0h1v1h-1V5zM3 7h1v1H3V7zm14.969 0h1v1h-1V7zM3 9h1v1H3V9zm14.969 0h1v1h-1V9zM3 11h1v1H3v-1zm14.969 0h1v1h-1v-1zM3 13h1v1H3v-1zm14.969 0h1v1h-1v-1zM3 15h1v1H3v-1zm14.969 0h1v1h-1v-1z" style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#373737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" inkscape:connector-curvature="0"></path> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#373737;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" d="m15.656 2-2.742 4h2l2.742-4h-2zM6.742 15 4 19h2l2.742-4h-2z" id="path3370" inkscape:connector-curvature="0"></path> </g> </g></svg>
                                 </div>
 
                                 <div class="p-3">
-                                    <p class="card-text justify-text">I provide IT support for businesses, focusing on networking and troubleshooting both hardware and software issues. Whether it’s resolving connectivity problems or fixing system errors, I ensure your technology runs smoothly and efficiently.</p>
+                                    <p class="card-text">I create basic cutout animations, using simple techniques to bring characters and scenes to life with smooth, engaging motion. This approach ensures clear and effective storytelling, focusing on fluidity and ease while keeping the animation style clean and straightforward.</p>
+
                                 </div>
                                 
                             </div>
@@ -244,135 +248,54 @@
         </div>
 
         <br><br><br><br><br>
-        <div id="skills"></div>
+        <div id="works"></div>
         <br><br><br>
-        <div class="skills-section mb-5 bg-light">
+        <div class="works-section mb-5 bg-light">
 
-            <div class="skills-card-container mt-5">
+            <div class="works-card-container mt-5">
                 <section class="bsb-skill-1 py-3 py-md-5">
                     <div class="container" data-aos="fade-up" data-aos-delay="100">
                         <div class="row justify-content-md-center">
                             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                                 <div class="text-center">
-                                    <h2 class="font-2 heading text-center mb-3">My Skills</h2>
+                                    <h2 class="font-2 heading text-center mb-3">My Works</h2>
                                 </div>
-            
+                            
                                 <p class="text-secondary mb-5 text-center lead fs-4">
-                                    Below is a collection of skills and technologies that I specialize in. With hands-on experience in each, I use these tools to build efficient, responsive, and user-friendly web solutions tailored to meet specific project needs.
+                                    Below is a collection of projects I have created. With hands-on experience in various animation styles, I bring characters and stories to life, crafting visually engaging and dynamic animations for a wide range of media.
                                 </p>
                                 <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
                             </div>
+                            
                         </div>
                     </div>
             
                     <div class="container overflow-hidden" data-aos="fade-up" data-aos-delay="300">
-                        <div class="row justify-content-xl-center gy-3 gy-sm-4">
-                            <!-- html -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="c133de6af664cd4f011a55de6b0011b2"> <path display="inline" d="M30.713,0.501L71.717,460.42l184.006,51.078l184.515-51.15L481.287,0.501H30.713z M395.754,109.646 l-2.567,28.596l-1.128,12.681h-0.187H256h-0.197h-79.599l5.155,57.761h74.444H256h115.723h15.201l-1.377,15.146l-13.255,148.506 l-0.849,9.523L256,413.854v0.012l-0.259,0.072l-115.547-32.078l-7.903-88.566h26.098h30.526l4.016,44.986l62.82,16.965l0.052-0.014 v-0.006l62.916-16.977l6.542-73.158H256h-0.197H129.771l-13.863-155.444l-1.351-15.131h141.247H256h141.104L395.754,109.646z"> </path> </g> </g></svg>
-                                    </div>
-                                    <h3 class="fw-bold mb-2 text-center">HTML5</h3>
-
-                                    <p class="text-secondary fst-italic mb-4">HTML5 is the latest version of the Hypertext Markup Language, used for structuring and presenting content on the web. It includes new features like semantic elements and APIs to enhance web functionality.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-1" role="progressbar" aria-label="HTML5" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
-                                    </div>
-                                </div>
+                        <div class="row d-flex justify-content-center gy-3 gy-sm-4">
+                            <!-- Link 1 -->
+                            <div class="collection-container col-12 col-sm-6 col-xl-5">
+                                <iframe src="https://www.youtube.com/embed/QwAZvYOoytA" title="Michael Durian Animation Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
 
-                            <!-- css -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="c133de6af664cd4f011a55de6b001b19"> <path display="inline" d="M483.111,0.501l-42.59,461.314l-184.524,49.684L71.47,461.815L28.889,0.501H483.111z M397.29,94.302 H255.831H111.866l6.885,55.708h137.08h7.7l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606 l-64.058,18.035v-0.057l-0.525,0.146l-61.864-15.617l-3.754-45.07h-0.205H132.1h-0.202l7.511,87.007l116.423,34.429v-0.062 l0.21,0.062l115.799-33.802l15.021-172.761h-131.03h-0.323l0.323-0.14l135.83-58.071L397.29,94.302z"> </path> </g> </g></svg>
-                                        <h3 class="fw-bold mb-2">CSS3</h3>
-                                    </div>
-                                    
-                                    <p class="text-secondary fst-italic mb-4">CSS3 is the most recent version of the Cascading Style Sheets language used for styling web pages. It introduces advanced features like transitions, animations, and responsive design tools.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-2" role="progressbar" aria-label="CSS3" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                                    </div>
-                                </div>
+                            <div class="collection-container col-12 col-sm-6 col-xl-5">
+                                <iframe src="https://www.youtube.com/embed/UbpB90oBcbo" title="Scenes I Animated  in Toon-Boom Harmony Paperless" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
 
-                            <!-- JS -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512" width="64px" height="64px" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#000000"></rect><path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"></path></g></svg>
-                                        <h3 class="fw-bold mb-2 mx-2 text-center">JavaScript</h3>
-                                    </div>
-
-
-                                    <p class="text-secondary fst-italic mb-4">JavaScript is a high-level, dynamic programming language commonly used to create interactive effects within web browsers. It is an essential tool for building modern web applications.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-3" role="progressbar" aria-label="JavaScript" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                                </div>
+                            <div class="collection-container col-12 col-sm-6 col-xl-5">
+                                <iframe src="https://www.youtube.com/embed/2BAgHiWiltI" title="My Tent-Pictures Scenes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
 
-                            <!-- Jquery -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="16" cy="16" r="14" fill="#000000"></circle> <path d="M22.6573 13.4211C23.9143 13.4211 25.0652 13.0019 25.955 12.3066C25.0312 13.5238 23.5007 14.3196 21.7689 14.3196C18.9477 14.3196 16.6607 12.2077 16.6607 9.60256C16.6607 8.1581 17.3638 6.86527 18.4712 6C17.8901 6.76568 17.5491 7.6981 17.5491 8.70407C17.5491 11.3092 19.8361 13.4211 22.6573 13.4211Z" fill="#ffffff"></path> <path d="M25.9064 16.6586C24.5512 17.7216 22.7968 18.3628 20.8805 18.3628C16.5874 18.3628 13.1071 15.1447 13.1071 11.1749C13.1071 9.63522 13.6307 8.20859 14.5221 7.03894C12.8413 8.35742 11.7745 10.3248 11.7745 12.5226C11.7745 16.4924 15.2548 19.7106 19.5479 19.7106C22.176 19.7106 24.4994 18.5047 25.9064 16.6586Z" fill="#ffffff"></path> <path d="M26 20.7701C24.0689 22.6129 21.3937 23.7538 18.4375 23.7538C12.5497 23.7538 7.77678 19.2283 7.77678 13.6458C7.77678 11.8768 8.25603 10.214 9.09813 8.76767C7.18322 10.595 6 13.1125 6 15.892C6 21.4745 10.7729 26 16.6607 26C20.6827 26 24.1846 23.8881 26 20.7701Z" fill="#ffffff"></path> </g></svg>
-                                        <h3 class="fw-bold mb-2">jQuery</h3>
-                                    </div>
-
-                                    <p class="text-secondary fst-italic mb-4">jQuery is a fast, small, and feature-rich JavaScript library. It simplifies tasks like DOM manipulation, event handling, and animation, enabling developers to create interactive web pages more easily.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="jQuery" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                                </div>
+                            <div class="collection-container col-12 col-sm-6 col-xl-5">
+                                <iframe src="https://www.youtube.com/embed/LHzggVwYsuk" title="Sketches Hobbies Artworks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
 
-                            <!-- Bootstrap -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg width="64px" height="64px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-bootstrap-fill"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"></path> <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"></path> </g></svg>
-                                        <h3 class="fw-bold mb-2">Bootstrap</h3>
-                                    </div>
-
-                                    <p class="text-secondary fst-italic mb-4">Bootstrap is a popular front-end framework used to build responsive, mobile-first websites. It includes a collection of pre-designed components and styles for quick and easy web development, ensuring consistency across different screen sizes and devices.</p>
-
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="jQuery" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                                    </div>
-                                </div>
+                            <div class="collection-container col-12 col-sm-6 col-xl-5">
+                                <iframe src="https://www.youtube.com/embed/AYH_RIvbmjY" title="Storyboard Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
 
-                            <!-- PHP -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 5.5C5.27148 5.5 0 8.35547 0 12C0 15.6445 5.27148 18.5 12 18.5C18.7285 18.5 24 15.6445 24 12C24 8.35547 18.7285 5.5 12 5.5ZM10.7539 7.5H12.0645L11.6484 9.5H12.8184C13.5605 9.5 14.0586 9.60352 14.3418 9.86328C14.6191 10.1191 14.7031 10.5391 14.5918 11.1113L14.0723 13.5H12.7402L13.2188 11.291C13.2773 10.9883 13.2539 10.7773 13.1523 10.666C13.0508 10.5547 12.8281 10.5 12.4941 10.5H11.4453L10.8125 13.5H9.5L10.7539 7.5ZM5 9.5H7.66602C8.9375 9.5 9.70703 10.3516 9.40625 11.623C9.05664 13.0996 8.11914 13.5 6.39648 13.5H5.57227L5.31055 15H3.98633L5 9.5ZM15.5 9.5H18.166C19.4375 9.5 20.207 10.3516 19.9062 11.623C19.5566 13.0996 18.6191 13.5 16.8965 13.5H16.0723L15.8105 15H14.4863L15.5 9.5ZM6.13477 10.5L5.75781 12.5H6.61328C7.35352 12.5 8.04102 12.416 8.15625 11.3125C8.19922 10.8848 8.02148 10.5 7.16602 10.5H6.13477ZM16.6348 10.5L16.2578 12.5H17.1133C17.8535 12.5 18.541 12.416 18.6562 11.3125C18.6992 10.8848 18.5215 10.5 17.666 10.5H16.6348Z" fill="#000000"></path> </g></svg>
-                                        <h3 class="fw-bold mb-2">PHP</h3>
-                                    </div>
 
-                                    <p class="text-secondary fst-italic mb-4">PHP is a popular general-purpose scripting language that is especially suited to back-end web development. It powers dynamic websites and is widely used for server-side programming.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="jQuery" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- Mysql -->
-                            <div class="col-12 col-sm-6 col-xl-5">
-                                <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5 skills-card">
-                                    <div class="text-center mb-3">
-                                        <svg width="64px" height="64px" viewBox="-1 0 258 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> </defs> <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g> <path d="M127.928916,0.00180988628 C161.155628,0.00180988628 194.384153,0.00180988628 227.610865,0 C231.780293,0 235.911652,0.361977256 239.91249,1.58184061 C248.586712,4.22608447 253.180333,10.4466636 254.980438,19.0200949 C255.69468,22.4190614 255.897713,25.8849936 255.904964,29.3491159 C255.957535,52.6206337 255.997416,75.8921515 255.999229,99.1636693 C256.001042,141.547586 256.00648,183.931503 255.919466,226.31542 C255.906776,232.248227 255.59135,238.24619 252.661874,243.650511 C249.413346,249.644854 244.964748,254.388566 238.212088,256.475365 C236.992078,256.851821 235.717683,257.280764 234.466855,257.280764 C231.584511,257.282574 228.780118,257.997479 225.906839,257.997479 C160.840202,257.99205 95.7735648,258.030057 30.7069279,257.926894 C25.4153804,257.917844 20.0368188,257.532339 15.0099394,255.378574 C14.0092767,254.949631 12.9995501,254.589464 12.1203448,253.919806 C5.71936699,249.042162 1.37409831,242.959134 0.442321884,234.727772 C0.106954882,231.759558 0,228.807634 0,225.83942 C0.0108767677,159.887164 0.0163151515,93.9349079 0.050758249,27.9826518 C0.0525710436,24.1565522 0.092452525,20.2652967 1.26895623,16.6038967 C4.4032781,6.84498991 11.2610801,1.51849459 21.4272323,0.436182594 C23.7893036,0.184608401 26.1731286,0.0217186354 28.5460767,0.0199087491 C61.6730854,-0.00723954512 94.8019068,0.00180988628 127.928916,0.00180988628 L127.928916,0.00180988628 Z" fill="#000000"> </path> <path d="M128.775254,164.113293 C128.047679,168.567424 127.537291,172.592612 125.937351,176.30288 C118.44623,193.686843 105.681098,204.28011 86.5433558,206.388628 C63.921581,208.880842 43.0282481,194.919376 36.7461311,173.235122 C34.4692936,165.376594 34.6973393,157.366035 35.5226477,149.368145 C36.4040625,140.82186 38.921615,132.717187 42.8526891,125.072225 C43.4155639,123.979054 43.4047046,123.153745 42.7006586,122.094962 C36.6646862,113.01657 34.3226927,102.987987 35.1733395,92.1630542 C35.6276211,86.3768462 37.0320932,80.8422124 39.6564291,75.6586967 C47.3448281,60.4737467 64.225642,47.5873529 86.8347475,49.726639 C106.714544,51.6071114 125.128332,68.7557886 128.002432,88.041942 C128.147223,89.0102314 128.418706,89.960422 128.737246,91.3884226 C129.213246,88.8020944 129.557125,86.6682379 130.002357,84.5542902 C133.705385,67.0327764 150.855872,48.6986234 175.166271,48.4723875 C199.80607,48.2443418 218.053348,67.5685028 221.495753,85.51715 C222.950902,93.1023854 222.697518,100.680381 221.497563,108.254757 C220.297608,115.821894 218.075067,123.095829 214.82632,130.029505 C214.109605,131.55886 214.18381,132.659271 215.101423,134.080032 C220.408011,142.304157 222.750005,151.331873 222.449563,161.136029 C221.821533,181.593179 207.353298,199.938192 187.448163,204.736201 C159.657352,211.432783 138.354984,194.812592 131.186023,174.70475 C130.016836,171.432475 129.463011,168.015409 128.775254,164.113293 L128.775254,164.113293 Z M179.263855,128.172561 C179.560676,127.016044 180.45657,126.322857 181.10089,125.466781 C188.068954,116.2074 191.733975,105.863897 190.915906,94.2172757 C190.320453,85.7162375 183.328861,79.7291321 174.86583,80.0458622 C166.39737,80.3625924 160.015709,86.8944738 159.896257,95.3683637 C159.887207,96.0615503 159.928835,96.7565468 159.885397,97.4461137 C159.302614,106.477449 154.319996,111.423869 146.769148,111.975885 C145.390014,112.077238 144.007261,112.200311 142.626317,112.20393 C132.82578,112.225649 123.027053,112.222029 113.226516,112.21298 C108.946134,112.20936 104.70195,112.674501 100.626085,113.932372 C81.5987451,119.803645 70.5041392,132.814921 66.830069,152.207858 C66.1024946,156.044818 65.4473155,160.026569 66.7051869,163.968502 C68.509644,169.620778 71.8742235,173.825145 77.8305608,175.231427 C84.0040846,176.688386 89.3812582,175.075777 93.652591,170.22709 C96.4144782,167.092367 97.2850337,163.36762 97.4913608,159.279085 C98.0252774,148.763643 103.751759,143.507732 113.300722,143.587367 C127.949945,143.708629 142.600979,143.612705 157.252012,143.623565 C159.852819,143.625375 159.876348,143.659762 159.889017,146.231612 C159.914356,150.982564 159.767755,155.738947 159.950553,160.48447 C160.249185,168.230785 167.065218,174.670362 174.967184,174.896598 C183.115294,175.130074 190.37837,169.103151 190.908667,161.235573 C191.366568,154.426779 191.33761,147.574548 190.890568,140.760324 C190.544879,135.484504 187.690688,131.725369 182.85467,129.542646 C181.694533,129.021398 180.474669,128.630463 179.263855,128.172561 L179.263855,128.172561 Z M87.4320102,112.189451 C90.583023,112.189451 93.1548721,112.160493 95.7249114,112.202121 C96.9990716,112.222029 97.4714521,111.673634 97.4605928,110.424812 C97.4189654,105.482011 97.6741594,100.522921 97.3592391,95.5982193 C96.9429651,89.1007258 93.4878913,84.4040696 87.4392497,82.0349278 C81.2367677,79.6060598 75.5609628,80.992433 70.7611431,85.5732564 C65.9396048,90.1757985 65.2970949,95.8045464 66.9839094,101.965401 C68.5331725,107.626727 72.1945734,110.842896 77.9518233,111.814805 C81.296494,112.37768 84.6592636,112.108006 87.4320102,112.189451 L87.4320102,112.189451 Z" fill="#FFFFFF"> </path> </g> </g> </g></svg>
-                                        <h3 class="fw-bold mb-2">Mysql w/ Xampp</h3>
-                                    </div>
 
-                                    <p class="text-secondary fst-italic mb-4">MySQL is an open-source relational database management system (RDBMS). It uses Structured Query Language (SQL) to manage and query data stored in databases. MySQL is widely used in web applications and is known for its speed, reliability, and ease of use.</p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="jQuery" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -397,8 +320,8 @@
                     <div class="d-flex mb-3">
                         <i class="bi bi-phone fs-1 font-color2"></i>
                         <div class="mx-3">
-                            <p class="m-0 lead fw-bold font-color3">+639914854229</p>
-                            <p class="text-muted">Feel free to give me a call anytime for inquiries or assistance.</p>
+                            <p class="m-0 lead fw-bold font-color3">+639159564905</p>
+                            <p class="text-muted">Feel free to give me a call anytime for inquiries.</p>
                         </div>
                     </div>
 
@@ -413,7 +336,7 @@
                     <div class="d-flex mb-3">
                         <i class="bi bi-envelope fs-1 font-color2"></i>
                         <div class="mx-3">
-                            <p class="m-0 lead fw-bold font-color3">iangabrieldurian@gmail.com</p>
+                            <p class="m-0 lead fw-bold font-color3">kiel.durian@gmail.com</p>
                             <p class="text-muted">Send me an email, and I'll get back to you as soon as possible.</p>
                         </div>
                     </div>
@@ -454,16 +377,14 @@
             <div class="row">
                 <!-- foot links -->
                 <div class="col-md-6 col-sm-12 foot-links">
-                    <div>
-                        <a href="https://www.linkedin.com/in/ian-gabriel-durian-a43b55248/" class="text-decoration-none fs-5 font-color1 text-secondary">LinkedIn</a>
-                        <a href="https://www.facebook.com/iangabriel.durian" class="text-decoration-none fs-5 font-color1 text-secondary">Facebook</a>
-                        <a href="https://www.instagram.com/kai_sa0910/" class="text-decoration-none fs-5 font-color1 text-secondary">Instagram</a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/michael-durian-72591167/" class="text-decoration-none fs-5 font-color1 text-secondary" target="_blank">LinkedIn</a>
+                    <a href="https://www.facebook.com/michael.durian.3" class="text-decoration-none fs-5 font-color1 text-secondary" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/mikedoorheeiiann?igsh=MWx4OTVibnM2NGQxYg==" class="text-decoration-none fs-5 font-color1 text-secondary" target="_blank">Instagram</a>
                 </div>
 
                 <!-- copyright -->
                 <div class="col-md-6 col-sm-12 text-end copyright">
-                    <p class="text-secondary m-0 font-color1">© 2024 All rights reserved. IG Durian.</p>
+                    <p class="text-secondary m-0 font-color1">© 2025 All rights reserved. M Durian.</p>
                 </div>
             </div>
         </div>
@@ -528,7 +449,7 @@
             const message = document.getElementById('message').value;
 
             // Create a mailto link for Gmail with pre-filled values
-            const emailAddress = 'iangabrieldurian@gmail.com';
+            const emailAddress = 'kiel.durian@gmail.com';
             const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailAddress}&su=${encodeURIComponent(subj)}&body=${encodeURIComponent('From: ' + fname + ' (' + email + ')\n\n' + message)}`;
 
             // Redirect the user to Gmail's compose window with pre-filled information
